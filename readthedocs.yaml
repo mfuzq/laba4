@@ -10,5 +10,6 @@ python:
 
 build:
   image: latest
+  os: linux
   commands:
     - doxygen Doxyfile
