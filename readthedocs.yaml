@@ -12,5 +12,6 @@ python:
 sphinx:
   configuration: conf.py
 
-commands:
-  - doxygen Doxyfile
+build:
+  commands:
+    - doxygen Doxyfile
