@@ -9,8 +9,6 @@ python:
     - requirements: requirements.txt
 
 build:
-  os: ubuntu-22.04
-  tools:
-    python: "3.12"
+  os: ubuntu-lts-22.04
   commands:
     - doxygen Doxyfile
